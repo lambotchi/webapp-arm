@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T18:08:10.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="zFwOVS8aw5KmQx9gI0eg" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T18:24:34.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="CRXBEAy5bqYcX5XyWWBi" version="13.10.4" type="github">
   <diagram id="VkWiQgKyTVFQmq3Agn1a" name="Page-1">
     <mxGraphModel dx="2201" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry x="351" y="220" width="59" height="65.56" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="400" width="1460" height="650" as="geometry" />
+          <mxGeometry x="390" y="400" width="1570" height="650" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-29" target="SQHUohOvqXXeoGCL0_S1-51">
           <mxGeometry relative="1" as="geometry">
@@ -68,17 +68,11 @@
         <mxCell id="SQHUohOvqXXeoGCL0_S1-34" value="&lt;b&gt;Dev&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="945" y="356" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SQHUohOvqXXeoGCL0_S1-35" value="&lt;b&gt;Stg&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="356" width="60" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-37" value="&lt;b&gt;ADO Pipeline&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="1070" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-44" target="SQHUohOvqXXeoGCL0_S1-54">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SQHUohOvqXXeoGCL0_S1-44" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;wordpress files..&lt;br&gt;&lt;/li&gt;&lt;li&gt;(git submodule) Devops: Dockerfile and helm chart&lt;/li&gt;&lt;li&gt;wordpress mysqldump&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="410" y="550" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-46" value="WP App Repo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="520" width="340" height="20" as="geometry" />
@@ -92,17 +86,11 @@
         <mxCell id="SQHUohOvqXXeoGCL0_S1-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-51" target="SQHUohOvqXXeoGCL0_S1-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQHUohOvqXXeoGCL0_S1-51" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Pull Base Docker Image&lt;br&gt;&lt;/li&gt;&lt;li&gt;Copy WP Files&amp;nbsp;&lt;/li&gt;&lt;li&gt;Set database connection&lt;/li&gt;&lt;li&gt;Set other settings. e.g. instrumentation, telemetry&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="410" y="815" width="330" height="89" as="geometry" />
-        </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-52" value="Docker Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="788" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-54" target="SQHUohOvqXXeoGCL0_S1-51">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SQHUohOvqXXeoGCL0_S1-54" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Unit Test&lt;/li&gt;&lt;li&gt;Code Rules&lt;/li&gt;&lt;li&gt;Formatting&lt;/li&gt;&lt;li&gt;Secret Check&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="410" y="672" width="330" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-55" value="Run Test" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="642" width="340" height="20" as="geometry" />
@@ -116,13 +104,10 @@
         <mxCell id="SQHUohOvqXXeoGCL0_S1-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-25" target="SQHUohOvqXXeoGCL0_S1-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQHUohOvqXXeoGCL0_S1-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="770" y="-64.44" width="870" height="350" as="geometry" />
-        </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-69" value="&lt;b&gt;Kuberentes Cluster&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1127.5" y="-90" width="155" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SQHUohOvqXXeoGCL0_S1-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-70" target="SQHUohOvqXXeoGCL0_S1-77">
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-70" target="SQHUohOvqXXeoGCL0_S1-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-70" value="&lt;span&gt;pipeline vars&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
@@ -137,14 +122,85 @@
         <mxCell id="SQHUohOvqXXeoGCL0_S1-73" value="SQL Dump" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
           <mxGeometry x="450" y="947" width="60" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="SQHUohOvqXXeoGCL0_S1-77" value="Helm Chart" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="810" y="540" width="330" height="70" as="geometry" />
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-77" value="Helm Chart + Pipeline Vars" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="660" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-76" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
-          <mxGeometry x="556.25" y="280" width="37.5" height="50" as="geometry" />
+          <mxGeometry x="1156.25" y="227.78" width="37.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SQHUohOvqXXeoGCL0_S1-36" value="&lt;span&gt;pipeline vars&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="440" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-54" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Unit Test&lt;/li&gt;&lt;li&gt;Code Rules&lt;/li&gt;&lt;li&gt;Formatting&lt;/li&gt;&lt;li&gt;Secret Check&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="410" y="672" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-44" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;wordpress files..&lt;br&gt;&lt;/li&gt;&lt;li&gt;(git submodule) Devops: Dockerfile and helm chart&lt;/li&gt;&lt;li&gt;wordpress mysqldump&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="410" y="550" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-51" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Pull Base Docker Image&lt;br&gt;&lt;/li&gt;&lt;li&gt;Copy WP Files&amp;nbsp;&lt;/li&gt;&lt;li&gt;Set database connection&lt;/li&gt;&lt;li&gt;Set other settings. e.g. instrumentation, telemetry&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="410" y="815" width="330" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-82" target="SQHUohOvqXXeoGCL0_S1-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-82" value="SQL Dump" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="945" y="519" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-85" value="&lt;b&gt;Stg&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="356" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-87" target="SQHUohOvqXXeoGCL0_S1-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-87" value="&lt;span&gt;pipeline vars&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="440" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-88" value="" style="endArrow=none;html=1;strokeWidth=10;entryX=0.432;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.429;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="1050" as="sourcePoint" />
+            <mxPoint x="1564.3799999999997" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-89" value="Helm Chart + Pipeline Vars" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="660" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-90" value="SQL Dump" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="1335" y="519" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-91" value="&lt;b&gt;Prod&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="356" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-93" target="SQHUohOvqXXeoGCL0_S1-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-93" value="&lt;span&gt;pipeline vars&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="440" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-94" value="" style="endArrow=none;html=1;strokeWidth=10;entryX=0.432;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.429;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1960" y="1050" as="sourcePoint" />
+            <mxPoint x="1964.3799999999997" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-95" value="Helm Chart + Pipeline Vars" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="660" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=none;startFill=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-96" target="SQHUohOvqXXeoGCL0_S1-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-96" value="SQL Dump" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="1735" y="519" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-99" value="Helm Chart + Pipeline Vars" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="680" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-100" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="235.56" width="37.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
