@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T15:28:27.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" version="13.10.4" etag="gx19nvWI_3CagOH1oc-J" type="github"><diagram id="VkWiQgKyTVFQmq3Agn1a">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-30T15:39:39.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="FX9mYkphS7x-br_fQn-x" version="13.10.4" type="github">
+  <diagram id="VkWiQgKyTVFQmq3Agn1a" name="Page-1">
+    <mxGraphModel dx="1963" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="400" width="360" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-1" target="SQHUohOvqXXeoGCL0_S1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-1" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="140" y="530" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-3" value="Wordpress Files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SQHUohOvqXXeoGCL0_S1-4" target="SQHUohOvqXXeoGCL0_S1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-4" value="git update hook" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-5" value="Git Repo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-6" value="git pre-push hook" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-13" value="mysqldump to git repo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-21" value="load mysqldump to DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="520" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SQHUohOvqXXeoGCL0_S1-24" value="Local" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
